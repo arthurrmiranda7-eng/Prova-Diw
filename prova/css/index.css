@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background-color: white;
+}
+
+table {
+    width: 700px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+tr:nth-child(1) {
+    background-color: #233f76;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+tr:nth-child(2) td:nth-child(1) {
+    width: 200px;
+    text-align: center;
+}
+
+h2 {
+    color: #2f455c;
+}
+
+h3 {
+    color: black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+tr:nth-child(3) {
+    background-color: rgb(231, 226, 226);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #555555;
+}
